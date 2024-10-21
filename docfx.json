@@ -20,6 +20,7 @@
       "EnumSortOrder": "alphabetic"
     }
   ],
+  "references": ["external/MonoGo/Modules/MonoGo.Tiled.MapStructure/MonoGo.Tiled.MapStructure.shproj"],
   "rules": {
     "InvalidFileLink": "error",
     "InvalidBookmark": "error",
@@ -51,7 +52,7 @@
     ],
     "output": "_site",
     "globalMetadata": {
-      "_appLogoUrl": "https://github.com/BlizzCrafter/MonoGo",
+      "_appLogoUrl": "https://github.com/MonoGo-Engine",
       "_appFaviconPath": "/images/favicon.png",
       "_disableBreadcrumb": "true",
       "_appFooter": "Copyright © 2024 BlizzCrafter",

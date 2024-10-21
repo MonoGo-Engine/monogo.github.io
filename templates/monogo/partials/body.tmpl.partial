@@ -1,0 +1,76 @@
+    {{#_overrideDocFx}}
+      {{!body}}
+    {{/_overrideDocFx}}
+    {{^_overrideDocFx}}
+      <main class="{{^api}}container-xxl{{/api}}{{#api}}container{{/api}}">
+        <div class="toc-offcanvas">
+          <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <nav class="toc" id="toc"></nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="actionbar">
+            <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em"
+                type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas"
+                aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+              <i class="bi bi-list"></i>
+            </button>
+
+            <nav id="breadcrumb"></nav>
+          </div>
+
+          <article data-uid="{{uid}}">
+            {{!body}}
+          </article>
+
+          {{^_disableContribution}}
+          <div class="contribution d-print-none">
+            {{#sourceurl}}
+            <a href="{{sourceurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+            {{/sourceurl}}
+            {{^sourceurl}}{{#docurl}}
+            <a href="{{docurl}}" class="edit-link">{{__global.improveThisDoc}}</a>
+            {{/docurl}}{{/sourceurl}}
+          </div>
+          {{/_disableContribution}}
+
+          {{^_disableNextArticle}}
+          <div class="next-article d-print-none border-top" id="nextArticle"></div>
+          {{/_disableNextArticle}}
+          
+        </div>
+
+        <div class="affix">
+          <nav id="affix"></nav>
+        </div>
+      </main>
+    {{/_overrideDocFx}}
+    {{#_enableSearch}}
+    <div class="container-xxl search-results" id="search-results"></div>
+    {{/_enableSearch}}
+
+    <div class="container-xxl">
+      <footer class="border-top my-5 pt-5">
+        <div class="row justify-content-between">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>MonoGo</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="/api/index.html" class="footer-link p-0 text-body-secondary">API Reference</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+          <div>{{_appFooter}}</div>
+          <ul class="list-unstyled d-flex gap-3">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/MonoGo-Engine"><i class="bi bi-github"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>

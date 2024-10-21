@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Build
         run: |
-            dotnet build
+            dotnet build external\MonoGo\MonoGo.sln
             dotnet docfx docfx.json
 
       - name: Setup Pages

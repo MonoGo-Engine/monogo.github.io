@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Build
         run: |
-            dotnet build external/MonoGo/MonoGo.sln
+            dotnet build -p:EnableWindowsTargeting=true external/MonoGo/MonoGo.sln
             dotnet docfx docfx.json
 
       - name: Setup Pages

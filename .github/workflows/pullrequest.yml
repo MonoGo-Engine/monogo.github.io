@@ -3,7 +3,7 @@ name: Test Build Documentation
 on:
   pull_request:
     branches:
-      - 'master'
+      - 'main'
 
   workflow_dispatch:
 

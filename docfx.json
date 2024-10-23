@@ -4,9 +4,9 @@
       "src": [
         {
           "files": [
-            "bin/MonoGo.Engine.dll",
-			"bin/MonoGo.Pipeline.dll",
-			"bin/MonoGo.Tiled.dll"
+            "external/MonoGo/bin/MonoGo.Engine.dll",
+			"external/MonoGo/bin/MonoGo.Pipeline.dll",
+			"external/MonoGo/bin/MonoGo.Tiled.dll"
           ]
         }
       ],

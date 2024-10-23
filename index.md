@@ -12,7 +12,7 @@ description: MonoGo Documentation Hub
 <div class="row">
 	<div class="col-12 col-lg-4 mb-5">
 		<div class="mg-card mg-box-shadow h-100">
-			<a target="_self" href="{{_hostname}}/api/index.html" class="mg-no-link">
+			<a target="_self" href="monogo-engine.github.io/monogo.github.io/api/index.html" class="mg-no-link">
 				<div class="mg-card-body d-flex flex-column h-100">
 					<div style="pointer-events: none; text-align: center;">
 					<img src="images/logo.png" alt="MonoGo Logo" align="center" width="50%">

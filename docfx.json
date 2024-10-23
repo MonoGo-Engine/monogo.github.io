@@ -53,7 +53,7 @@
     "output": "_site",
     "globalMetadata": {
       "_appLogoUrl": "https://github.com/MonoGo-Engine",
-      "_appFaviconPath": "monogo-engine.github.io/monogo.github.io/images/favicon.png",
+      "_appFaviconPath": "https://monogo-engine.github.io/monogo.github.io/images/favicon.png",
       "_disableBreadcrumb": "true",
       "_appFooter": "Copyright © 2024 BlizzCrafter",
       "_hostname": "monogo-engine.github.io/monogo.github.io",

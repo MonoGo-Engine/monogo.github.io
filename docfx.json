@@ -4,9 +4,9 @@
       "src": [
         {
           "files": [
-            "external/MonoGo/bin/MonoGo.Engine.dll",
-			"external/MonoGo/bin/MonoGo.Pipeline.dll",
-			"external/MonoGo/bin/MonoGo.Tiled.dll"
+            "bin/MonoGo.Engine.dll",
+			"bin/MonoGo.Pipeline.dll",
+			"bin/MonoGo.Tiled.dll"
           ]
         }
       ],
@@ -20,7 +20,6 @@
       "EnumSortOrder": "alphabetic"
     }
   ],
-  "references": ["external/MonoGo/Modules/MonoGo.Tiled.MapStructure/MonoGo.Tiled.MapStructure.shproj"],
   "rules": {
     "InvalidFileLink": "error",
     "InvalidBookmark": "error",

@@ -45,7 +45,7 @@
     "resource": [
       {
         "files": [
-		  "/images/favicon.png",
+		  "images/favicon.png",
           "**/images/**"
         ]
       }
@@ -53,10 +53,10 @@
     "output": "_site",
     "globalMetadata": {
       "_appLogoUrl": "https://github.com/MonoGo-Engine",
-      "_appFaviconPath": "/images/favicon.png",
+      "_appFaviconPath": "images/favicon.png",
       "_disableBreadcrumb": "true",
       "_appFooter": "Copyright © 2024 BlizzCrafter",
-      "_hostname": "https://monogo-engine.github.io/monogo.github.io/",
+      "_hostname": "monogo-engine.github.io/monogo.github.io",
       "_openGraphImage": "images/social_embed_image.png",
       "_description": "Cross-Platform .NET 8 C# 2D game engine build ontop of MonoGame.",
       "_appTitle": "MonoGo"

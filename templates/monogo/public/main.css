@@ -16,7 +16,7 @@
 [data-bs-theme="light"] {
   --mg-orange-primary: var(--mg-orange-dark);
   --mg-orange-secondary: var(--mg-orange-light);
-  --mg-logo: url('/images/logo_light.svg');
+  --mg-logo: url('{{_hostname}}/images/logo_light.svg');
 
   --bs-link-color-rgb: var(--mg-orange-dark-rgb);
   --bs-link-hover-color-rgb: var(--mg-orange-light-rgb);
@@ -25,7 +25,7 @@
 [data-bs-theme="dark"] {
   --mg-orange-primary: var(--mg-orange-light);
   --mg-orange-secondary: var(--mg-orange-dark);
-  --mg-logo: url('/images/logo_dark.svg');
+  --mg-logo: url('{{_hostname}}/images/logo_dark.svg');
 
   --bs-link-color-rgb: var(--mg-orange-light-rgb);
   --bs-link-hover-color-rgb: var(--mg-orange-dark-rgb);

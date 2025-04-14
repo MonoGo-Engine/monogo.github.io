@@ -6,7 +6,8 @@
           "files": [
             "external/MonoGo/bin/MonoGo.Engine.dll",
 			"external/MonoGo/bin/MonoGo.Pipeline.dll",
-			"external/MonoGo/bin/MonoGo.Tiled.dll"
+			"external/MonoGo/bin/MonoGo.Tiled.dll",
+			"external/MonoGo/bin/MonoGo.Iguina.dll"
           ]
         }
       ],
@@ -55,7 +56,7 @@
       "_appLogoUrl": "https://github.com/MonoGo-Engine",
       "_appFaviconPath": "https://monogo-engine.github.io/monogo.github.io/images/favicon.png",
       "_disableBreadcrumb": "true",
-      "_appFooter": "Copyright © 2024 BlizzCrafter",
+      "_appFooter": "Copyright © 2024-2025 BlizzCrafter",
       "_hostname": "monogo-engine.github.io/monogo.github.io",
       "_openGraphImage": "images/social_embed_image.png",
       "_description": "Cross-Platform .NET 8 C# 2D game engine build ontop of MonoGame.",

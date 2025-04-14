@@ -42,6 +42,7 @@ jobs:
             dotnet build external/MonoGo/MonoGo.Engine/MonoGo.Engine.csproj -p:PostBuildEvent=
             dotnet build external/MonoGo/MonoGo.Pipeline/MonoGo.Pipeline.csproj -p:PostBuildEvent=
             dotnet build external/MonoGo/Modules/MonoGo.Tiled/MonoGo.Tiled.csproj -p:PostBuildEvent=
+            dotnet build external/MonoGo/Modules/MonoGo.Iguina/MonoGo.Iguina.csproj -p:PostBuildEvent=
         
       - name: Build Documentation
         run: dotnet docfx docfx.json
